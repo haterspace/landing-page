@@ -1,0 +1,225 @@
+html,
+body {
+  background-color: white;
+  margin-bottom: 850px;
+  /* overflow: hidden; */
+}
+
+.photo {
+  height: 600px;
+  width: 30%;
+  position: relative;
+  margin: 120px 0 0 500px;
+  z-index: 0;
+}
+
+.blur {
+  position: relative;
+  width: 600px;
+  height: 75px;
+  border-radius: 50px;
+  margin: -55px 0 0 500px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(18px);
+  transform: rotate(352deg);
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  opacity: 0.5;
+  position: absolute;
+  transform: translate(-50%, -50%) skewX(20deg) rotate(350deg);
+  z-index: 1;
+}
+
+.box1 {
+  width: 200px;
+  height: 35px;
+  background: linear-gradient(to right, black 50%, white 50%);
+  margin-top: 300px;
+  margin-left: 700px;
+}
+
+.box2 {
+  width: 400px;
+  height: 60px;
+  background: linear-gradient(to right, white 50%, black 50%);
+  margin-top: 350px;
+  margin-left: 700px;
+}
+
+.box3 {
+  width: 400px;
+  height: 50px;
+  background: linear-gradient(to right, black 50%, white 50%);
+  margin-top: 470px;
+  margin-left: 700px;
+}
+
+.box4 {
+  width: 600px;
+  height: 50px;
+  background: linear-gradient(to right, white 50%, black 50%);
+  margin-top: 600px;
+  margin-left: 700px;
+}
+
+.job {
+  margin: 200px 0 0 800px;
+  color: black;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 60px;
+  font-weight: bold; /* Жирный шрифт */
+  text-shadow: 1px 5px 0;
+}
+
+.name {
+  margin: 200px 0 0 200px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 40px;
+}
+
+.text {
+  position: absolute;
+  top: 930px;
+  left: 50px;
+  text-align: left;
+}
+
+.text h4 {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 400px; /* Максимальная ширина строки */
+  word-wrap: break-word;
+}
+
+.text h4 strong {
+  text-decoration: underline;
+}
+
+.jobText {
+  color: black;
+  position: absolute;
+  margin: 100px;
+  font-size: 100px;
+}
+
+.nameText {
+  color: black;
+  position: absolute;
+  margin: 250px 0 0 900px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.slogan {
+  position: absolute;
+  margin: 200px 0 0 110px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contacts {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  letter-spacing: 4px;
+  font-size: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 350px 0 0 1050px;
+}
+
+.codeIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.groupPhoto {
+  width: 20%;
+  height: 40%;
+  position: absolute;
+  margin: 1000px 0 0 450px;
+  z-index: 1;
+  transform: rotate(0deg);
+}
+
+.meGraduationPhoto {
+  width: 15%;
+  height: 40%;
+  position: absolute;
+  margin: 940px 0 0 1200px;
+  border-radius: 30px;
+}
+
+.elbrusPhoto {
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  margin: 900px 0 0 600px;
+  border-radius: 30px;
+}
+
+.elbrusLogo {
+  width: 10%;
+  height: 20%;
+  position: absolute;
+  margin: 830px 0 0 530px;
+  border-radius: 30px;
+}
+
+.my-link {
+  display: inline-block;
+  position: relative;
+}
+
+.my-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  top: 25px;
+  bottom: 0;
+  left: 0;
+  background-color: #caa200;
+  transform-origin: bottom right;
+  transition: transform 0.2s ease-out;
+}
+
+.my-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* .my-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: orange;
+} */
+
+.underline1 {
+  width: 120px;
+  height: 3px;
+  border-radius: 50px;
+  position: absolute;
+  margin: 885px 0 0 11.5%;
+  background-color: rgb(153, 255, 0);
+}
+
+.underline2 {
+  width: 120px;
+  height: 3px;
+  border-radius: 50px;
+  position: absolute;
+  margin: 1427px 0 0 666px;
+  background-color: rgb(153, 255, 0);
+}
