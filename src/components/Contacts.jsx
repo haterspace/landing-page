@@ -28,7 +28,7 @@ export default function Contacts() {
         sx={{
           position: 'absolute',
           top: '440px',
-          left: '65%',
+          left: '63.5%',
           width: '400px',
         }}
       >
@@ -41,7 +41,7 @@ export default function Contacts() {
                   transition: '0.7s',
                   '&.MuiButtonBase-root:hover': {
                     bgcolor: 'transparent',
-                    transform: 'scale(1.2)'
+                    transform: 'scale(1.2)',
                   },
                 }}
               >

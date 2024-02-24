@@ -47,7 +47,7 @@ export default function Info() {
       </div>
       <div className='slogan'>
         <ReactTyped
-          strings={['Make your buisness better']}
+          strings={['Creating products. Expanding your business.']}
           style={{
             fontFamily:
               'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS sans-serif',

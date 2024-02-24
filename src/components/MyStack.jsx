@@ -35,7 +35,7 @@ export default function MyStack() {
           fontWeight: 'bold',
         }}
       >
-        My stack:
+        My stack
       </Typography>
       <div className='underline2'></div>
       <Box

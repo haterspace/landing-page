@@ -117,7 +117,7 @@ body {
 .slogan {
   position: absolute;
   margin: 200px 0 0 110px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -148,14 +148,14 @@ body {
   position: absolute;
   margin: 1000px 0 0 450px;
   z-index: 1;
-  transform: rotate(0deg);
+  border-top-right-radius: 15px;
 }
 
 .meGraduationPhoto {
   width: 15%;
   height: 40%;
   position: absolute;
-  margin: 940px 0 0 1200px;
+  margin: 940px 0 0 1220px;
   border-radius: 30px;
 }
 
@@ -199,19 +199,12 @@ body {
   transform-origin: bottom left;
 }
 
-/* .my-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 10px;
-  text-decoration-thickness: 1.5px;
-  text-decoration-color: orange;
-} */
-
 .underline1 {
   width: 120px;
   height: 3px;
   border-radius: 50px;
   position: absolute;
-  margin: 885px 0 0 11.5%;
+  margin: 885px 0 0 11.3%;
   background-color: rgb(153, 255, 0);
 }
 
@@ -220,6 +213,6 @@ body {
   height: 3px;
   border-radius: 50px;
   position: absolute;
-  margin: 1427px 0 0 666px;
+  margin: 1427px 0 0 675px;
   background-color: rgb(153, 255, 0);
 }
