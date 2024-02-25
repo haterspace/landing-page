@@ -51,13 +51,13 @@ export default function MyStack() {
               item
               key={index}
               sx={{
-                '&:nth-child(4) figcaption': {
+                '&:nth-of-type(4) figcaption': {
                   marginTop: '19px',
                 },
-                '&:nth-child(7) figcaption': {
+                '&:nth-of-type(7) figcaption': {
                   marginTop: '37px',
                 },
-                '&:nth-child(8) figcaption': {
+                '&:nth-of-type(8) figcaption': {
                   marginTop: '7px',
                 },
                 '& figcaption': {

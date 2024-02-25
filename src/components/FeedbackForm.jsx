@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Button,
   Grid,
@@ -6,7 +7,6 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
-import React from 'react';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
@@ -45,7 +45,7 @@ export default function FeedbackForm() {
           alignItems: 'center',
           position: 'absolute',
           top: '1740px',
-          left: '33%',
+          left: '32%',
           fontFamily: 'monospace',
           letterSpacing: '4px',
           fontSize: '30px',
@@ -57,7 +57,7 @@ export default function FeedbackForm() {
         sx={{
           position: 'absolute',
           top: '1850px',
-          left: '35%',
+          left: '34%',
           width: '500px',
           padding: '20px',
           borderRadius: '8px',
